@@ -1,0 +1,14 @@
+body{
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+.h1{
+    writing-mode: vertical-lr;
+    margin: 20px;
+}
+.h2{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rasm{
+    display: block;
+    width: 50%;
+    margin: 100px auto;
+}
+.div1{
+    border: 5px solid black;
+    width: 50%;
+    margin: auto;
+}
+.div1 img{
+    width: 100%;
+}

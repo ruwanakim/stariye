@@ -1,0 +1,23 @@
+body{
+    background-color: bisque;
+}
+div{
+    height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.div1{
+    background: linear-gradient(yellow, red);
+}
+.div2{
+    background: linear-gradient( to right, yellow, red);
+}
+.div3{
+    background: linear-gradient(to bottom right, red, yellow);
+}
+.div4{
+    background: linear-gradient(red, orange, yellow);
+}
+.div5{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, bisque);
+}                 

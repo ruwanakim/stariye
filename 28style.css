@@ -1,0 +1,37 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+.div1{
+    border: 1px solid gray;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    background-color: rgb(156, 151, 151);
+}
+
+.ul1 li{
+    border: 1px solid black;
+    width: 350px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(160, 219, 255);
+}
+.div2{
+    overflow: hidden;
+}
+.ul1{
+    float: left;
+}
+.div4 h1{
+    text-indent: 30px;
+}
+.div4 h3{
+    text-indent: 30px;
+}
+.div5{
+    border: 1px solid gray;
+    color: white;
+    padding: 15px;
+    background-color: rgb(156, 151, 151);
+}

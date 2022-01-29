@@ -1,0 +1,23 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+h1{
+    text-align: center;
+}
+.div1 img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    opacity: 0.5;
+}
+.div2{
+    display: flex;
+}
+.div2 img{
+    width: 30%;
+    margin: 10px;
+    opacity: 0.5;
+}
+.div2 img:hover{
+    opacity: 1;
+}

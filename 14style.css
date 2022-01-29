@@ -1,0 +1,61 @@
+.link1{
+    text-decoration: underline;
+}
+.link2{
+    text-decoration: none;
+}
+.link2:hover{
+    text-decoration: underline;
+    color: red;
+}
+.link3{
+    text-decoration: none;
+}
+.link3:hover{
+    text-decoration: underline;
+    background: red;
+}
+.link4{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: lightgray;
+    color: black;
+}
+.link4:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+}
+.link5{
+    text-decoration: none;
+    color: black;
+}
+.link5:hover{
+    text-decoration: underline;
+    color: rgb(242, 140, 255);
+}
+.link6{
+    text-decoration: none;
+    color: black;
+}
+.link6:hover{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.link7{
+    text-decoration: none;
+    color: black;
+}
+.link7:hover{
+    text-decoration: underline;
+    background: chartreuse;
+}
+.link8{
+    text-decoration: none;
+    color: black;
+}
+.link8:hover{
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}

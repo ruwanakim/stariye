@@ -1,0 +1,32 @@
+body{
+    background-color: lightpink;
+}
+h1{
+    text-align: center;
+}
+.div1{
+    border: 1px solid black;
+    position: relative;
+    left: 100px;
+}
+.div2{
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+.div3{
+    border: 2px solid black;
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+.div4{
+    border: 1px solid red;
+    position: absolute;
+    width: 300px;
+    /* right: 0; */
+    bottom: 0;
+    left: 0;
+}

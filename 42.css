@@ -1,0 +1,35 @@
+body{
+    background-color: lightpink;
+}
+div{
+    border: 1px solid black;
+    font-size: 25px;
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    transition: width 2s ease-in-out, height 2s ease-in;
+}
+.div1:hover{
+    width: 500px;
+    height: 100px;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    transition:  width 4s ease-out, height 4s ease-in;
+}
+.div2:hover{
+    width: 500px;
+    height: 300px;
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    transition: 4s;
+}
+.div3:hover{
+    transform: rotate(180deg);
+    width: 400px;
+    height: 300px;
+}

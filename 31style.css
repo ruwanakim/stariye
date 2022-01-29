@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightsalmon;
+    overflow: hidden;
+}
+ul{
+    background-color: black;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    float: right;
+    background-color: green;
+}

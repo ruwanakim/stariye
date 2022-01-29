@@ -1,0 +1,98 @@
+body{
+    background-color: lightpink;
+}
+h1{
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
+.div1{
+    animation-name: example1;
+    animation-duration: 4s;
+}
+@keyframes example1{
+    from{
+        background-color: orange;
+    }
+    to{
+        background-color: red;
+    }
+}
+.div2{
+    animation-name: example2;
+    animation-duration: 5s;
+}
+@keyframes example2{
+    0%{
+        background-color: yellow;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: orange;
+    }
+    75%{
+        background-color: violet;
+    }
+    100%{
+        background-color: lightpink;
+    }
+}
+.div3{
+    border: 1px sold black;
+    position: relative;
+    animation-name: example3;
+    animation-duration: 4s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    /* animation-timing-function: ease-in; */
+}
+@keyframes example3{
+    0%{
+        background-color: yellow;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-color: red;
+        top: 0;
+        left: 200px;
+    }
+    50%{
+        background-color: orange;
+        top: 200px;
+        left: 200px;
+    }
+    75%{
+        background-color: violet;
+        top: 200px;
+        left: 0;
+    }
+    100%{
+        background-color: lightpink;
+        top: 0;
+        left: 0;
+    }
+}
+.div4{
+    border: 1px solid black;
+    position: relative;
+    animation-name: example4;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes example4{
+    from{
+        background-color: red;
+        left: 0;
+    }
+    to{
+        background-color: blue;
+        left: 400px;
+    }
+}

@@ -1,0 +1,47 @@
+body{
+    background-color: lightgrey;
+}
+.img-container{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.images{
+    display: inline-block;
+    width: 50%;
+    padding-left: 5px;
+}
+.images img{
+    width: 49%;
+    height: 200px;
+}
+.single-img-comtainer{
+    border: 1px solid white;
+    float: right;
+    width: 50%;
+    height: 400px;
+}
+.img1-container{
+    display: inline;
+}
+.img1{
+    opacity: 0.8;
+}
+.img1:hover{
+    opacity: 1;
+}
+.dropdown1{
+    border: 1px solid red;
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+.dropdown img{
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+.img1-container:hover .dropdown img{
+    display: block;
+}

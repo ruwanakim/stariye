@@ -1,0 +1,40 @@
+body{
+    background-color: lightblue; 
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+.div2{
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+.div2{
+    border: 1px solid black;
+    width: 30%;
+    height: 320px;
+    position: relative;
+}
+.div2 img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.div1{
+    border: 1px solid black;
+    overflow: hidden;
+}
+.div2 h2{
+    text-align: center;
+    color: white;
+}
+.div2 img{
+    margin: 0 30;
+    float: left;
+}
+.div2 img:hover{
+    opacity: 0.5;
+    z-index: -1;
+}
+

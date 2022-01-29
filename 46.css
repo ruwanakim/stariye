@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcyan;
+}
+h1{
+    text-align: center;
+}
+.div1{
+    border: 3px solid red;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.div1 div{
+    background: gray;
+    margin: 1px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+.div2{
+    border: 3px solid red;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-columns: 80px 200px 50px;
+}
+.div2 div{
+    background: gray;
+    margin: 1px;
+    padding: 15px;
+    color: white;
+}
+.div3{
+    border: 3px solid red;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-rows: 80px 200px;
+}
+.div3 div{
+    background: gray;
+    margin: 1px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+.div4{
+    border: 3px solid red;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.div4 div{
+    background: gray;
+    margin: 1px;
+    padding: 15px;
+    color: white;
+}
+.div5{
+    border: 3px solid red;
+    margin-bottom: 10rem;
+    display: grid;
+    height: 400px;
+    grid-template-columns: auto auto auto;
+}
+.div5 div{
+    background: gray;
+    margin: 1px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+.div6{
+    border: 3px solid red;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-row-gap: 5rem; */
+    /* grid-column-gap: 5rem; */
+    grid-gap: 5rem;
+}
+.div6 div{
+    background: gray;
+    margin: 1px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
